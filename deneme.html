@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <title>Aleyna KAPLANOĞLU - Kişisel Web Sitesi</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Aleyna KAPLANOĞLU - Kişisel Web Sitesi">
+    <meta name="keywords" content="HTML5,Git,Github,Python,Django,Bootstrap,SQL,PL/SQL">
+    <meta name="author" content="Aleyna KAPLANOĞLU">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        body {
+            font: 20px Montserrat, sans-serif;
+            line-height: 1.8;
+            color: #f5f6f7;
+        }
+        
+        p {
+            font-size: 16px;
+        }
+        
+        .margin {
+            margin-bottom: 45px;
+        }
+        
+        .bg-1 {
+            background-color: #2160ae;
+            /* Green */
+            color: #000000;
+            /* black */
+        }
+        
+        .bg-2 {
+            background-color: #474e5d;
+            /* Dark Blue */
+            color: #ffffff;
+        }
+        
+        .bg-3 {
+            background-color: #ffffff;
+            /* White */
+            color: #555555;
+        }
+        
+        .bg-4 {
+            background-color: #4C3173;
+            /* Blue Diamond */
+            color: #fff;
+        }
+        
+        .bg-5 {
+            background-color: #ecebe8;
+            /* Gray */
+            color: #333;
+        }
+        
+        .container-fluid {
+            padding-top: 70px;
+            padding-bottom: 70px;
+        }
+        
+        .navbar {
+            padding-top: 15px;
+            padding-bottom: 15px;
+            border: 0;
+            border-radius: 0;
+            margin-bottom: 0;
+            font-size: 12px;
+            letter-spacing: 5px;
+        }
+        
+        .navbar-nav li a:hover {
+            color: #4C3173 !important;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Aleyna KAPLANOĞLU</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#kimdir">Kimdir?</a></li>
+                    <li><a href="#hakkında">Hakkında</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#iletisim">İletişim</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- First Container -->
+    <div id="kimdir" class="container-fluid bg-1 text-center">
+        <h3 class="margin">Merhaba, Ben Aleyna!</h3>
+        <img src="img/aleyna.jpg" class="img-responsive img-circle margin" style="display:inline" alt="aleynakaplanoglu" width="350" height="350">
+       
+        <h3>Bilgisayar Mühendisi</h3>
+    </div>
+
+    <!-- Second Container -->
+    <div id="Hakkında" class="container-fluid bg-2 text-center">
+        <h3 class="margin">Neler Yaparım?</h3>
+        <p>Bandırma Onyedi Eylül Bilgisayar Mühendisliği 2.Sınıf öğrencisiyim.Daha Fazla Bilgiye Aşağıdaki Linkten Ulaşabilirsiniz. </p>
+        <a href=img/cv.pdf class="btn btn-default btn-lg">
+            <span class="glyphicon glyphicon-link"></span> CV Görüntüle
+        </a>
+    </div>
+
+    <!-- Third Container (Grid) -->
+    <div id="blog" class="container-fluid bg-3 text-center">
+    <h3 class="margin">Blog</h3>
+    <br>
+    <div class="row">
+        <div class="col-sm-4">
+            <p>Git, yazılım geliştirme süreçlerinde kullanılan, hız odaklı, dağıtık çalışan bir sürüm kontrol ve kaynak kod yönetim sistemidir.</p>
+            <br>
+            <img src="img/git.jpg" class="img-responsive margin" style="width:100%" alt="git">
+        </div>
+        <div class="col-sm-4">
+            <p>HTML, Hiper Metin İşaretleme Dili (Hypertext Markup Language) web sayfalarını oluşturmak için kullanılan metin işleme dilidir.</p>
+            <br>
+            <img src="img/html5.jpg" class="img-responsive margin" style="width:100%" alt="html">
+        </div>
+        <div class="col-sm-4">
+            <p>Python kolay okunabilirliği, güçlü ve kapsamlı kütüphane desteği ile öne çıkan bir programlama dilidir. Hem acemi programcılar hem de deneyimli geliştiriciler için uygundur.              </p>
+            <img src="img/python.jpg" class="img-responsive margin" style="width:100%" alt="python">
+        </div>
+    </div>
+</div>
+
+    <!-- Contact -->
+    <div id="iletisim" class="container-fluid bg-5 text-center">
+        <h3 class="margin">İletişim</h3>
+        <br>
+        <div class="row ">
+            <div class="col-sm-5 text-left">
+                <p>Merhaba demek ister misin?</p>
+                <p><a href="https://goo.gl/maps/kW3UmiQSvbsRm95j9" target="_blank"><span class="glyphicon glyphicon-map-marker"></span> İstanbul, TR</a></p>
+                <p><span class="glyphicon glyphicon-phone"></span> +90 544 308 09 97</p>
+                <p><span class="glyphicon glyphicon-envelope"></span> xaleynakaplanoglu@gmail.com</p>
+            </div>
+            <div class="col-sm-7 ">
+                <div class="row">
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="name" name="name" placeholder="İsim" type="text" required>
+                    </div>
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="email" name="email" placeholder="Mail" type="email" required>
+                    </div>
+                </div>
+                <textarea class="form-control" id="comments" name="comments" placeholder="Mesaj" rows="5"></textarea>
+                <br>
+                <form action="form_kaydet.php" method="post"> </form>
+                <div class="row">
+                    <div class="col-sm-12 form-group">
+                        <button class="btn btn-default pull-right" type="submit">Gönder</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="container-fluid bg-4 text-center">
+        <p>Tüm Hakları Saklıdır! </br>
+            <a href="https://www.instagram.com/aleynakaplanoglu/">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+            <a href="https://github.com/AleynaKaplanoglu">
+                <i class="fa fa-github" aria-hidden="true"></i>
+            </a>
+            
+            <a href="https://www.linkedin.com/in/şeyma-aleyna-kaplanoğlu-69a55127a/">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+        </p>
+    </footer>
+
+</body>
+
+</html>
+</html>
